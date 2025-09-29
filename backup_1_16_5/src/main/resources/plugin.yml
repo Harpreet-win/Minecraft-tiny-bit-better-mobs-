@@ -1,0 +1,23 @@
+name: AIDrivenMobs
+version: 1.0
+main: com.example.aidrivenmobs.AIDrivenMobsPlugin
+api-version: 1.19
+author: AI-Driven Mobs Team
+description: A Minecraft plugin that makes mobs smarter by allowing them to learn from player behavior and adapt their tactics accordingly.
+website: https://github.com/aidrivenmobs/plugin
+
+commands:
+  mobmemory:
+    description: View and manage mob memory statistics
+    usage: /mobmemory [stats|reset]
+    aliases: [mm, mobmem]
+    permission: aidrivenmobs.command.mobmemory
+
+permissions:
+  aidrivenmobs.command.mobmemory:
+    description: Allows access to the mob memory command
+    default: true
+    
+  aidrivenmobs.admin:
+    description: Allows access to all AI-Driven Mobs features
+    default: op

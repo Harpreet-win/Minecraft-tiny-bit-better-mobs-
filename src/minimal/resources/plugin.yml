@@ -1,0 +1,7 @@
+name: AIDrivenMobs
+version: 1.0
+main: com.example.aidrivenmobs.AIDrivenMobsPlugin
+api-version: 1.16
+author: AI-Driven Mobs Team
+description: A Minecraft plugin that makes mobs smarter by allowing them to learn from player behavior and adapt their tactics accordingly.
+website: https://github.com/aidrivenmobs/plugin
